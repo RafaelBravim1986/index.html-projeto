@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+  box-sizing: border-box;
+  background-color: #d2691e;
+}
+
+/* strong {
+  color: white;
+} */
+
+.apresentacao {
+  padding: 9% 8%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.apre {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.aprelink {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 32px;
+  align-items: center;
+}
+
+.subtitulo {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.btnLin {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  border: 5px solid black;
+  color: black;
+  width: 280px;
+  text-align: center;
+  border-radius: 8px;
+  padding: 21.5px;
+  text-decoration: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 600;
+}
+
+.btnLin:hover {
+  background-color: white;
+}
+
+#para {
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#img {
+  width: 400px;
+  border: 8px solid black;
+}
+
+.rafael {
+  font-size: 50px;
+  text-align: center;
+  box-shadow: inset 0 0 10px 10px black;
+  /* box-shadow: 5px 5px 10px green, 
+            -5px 0 darkgreen; */
+}
+
+.rafael:hover {
+  color: gold;
+}
+
+.rodape {
+  color: white;
+  background-color: black;
+  padding: 24px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.cabe_link {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: yellow;
+  text-decoration: none;
+}
+
+.cabecalho{
+  padding: 2% 0% 0% 10%;
+}
+
+.cabe_menu{
+  display: flex;
+  gap: 80px;
+}
